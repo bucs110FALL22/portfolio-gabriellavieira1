@@ -1,0 +1,17 @@
+print (10 * 5)
+print (10**2)
+print(15/10)
+print(15//10)
+print(-15//10)
+print(15%10)
+print(10%15)
+print(10%10)
+print(0%10)
+print(10/15)
+#Last answer should be typed as a integer division function (10//15), so that the answer could be exactly 0.
+
+rate = float( input("Current exchange rate for the Euro to Dollar?:"))
+amount = int( input( "Amount of currency to exchange?:"))
+total = amount * rate
+result = (total-3) 
+print(result)
