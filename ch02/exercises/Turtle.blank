@@ -1,0 +1,35 @@
+import turtle 
+wn=turtle.Screen()
+wn.bgcolor("lightblue")
+
+my_turtle = turtle.Turtle
+
+turtle.color("purple")
+turtle.shape("turtle")
+
+length=50
+turtle.fd(length)
+turtle.lt(90)
+turtle.fd(length)
+turtle.lt(90)
+turtle.fd(length)
+turtle.lt(90)
+turtle.fd(length)
+
+joe = turtle.clone()
+joe.color("red")
+
+
+joe.setpos(20.00,10.00)
+
+joe.fd(0)
+joe.lt(90)
+joe.fd(20)
+joe.lt(90)
+joe.fd(20)
+joe.lt(90)
+joe.fd(20)
+joe.lt(90)
+joe.fd(20)
+
+wn.exitonclick()
