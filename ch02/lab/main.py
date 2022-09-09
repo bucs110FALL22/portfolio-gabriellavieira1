@@ -27,7 +27,7 @@ print("Finished result of the cost per class:", cost_per_class)
 
 #Part B
 import random
-First = ("mylist")
+numbers_first = ("mylist")
 mylist = [2,3,6,7,8]
-Second = (random.choice(mylist))
-print(Second)
+numbers_second = (random.choice(mylist))
+print(numbers_second)
