@@ -16,13 +16,18 @@ turtle.fd(length)
 turtle.lt(90)
 turtle.fd(length)
 
+
+
+
+#turtle.up()
+#turtle.fd(180)
+#turtle.down()
+#turtle.color
+
 joe = turtle.clone()
 joe.color("red")
 
-
-joe.setpos(20.00,10.00)
-
-joe.fd(0)
+joe.fd(20)
 joe.lt(90)
 joe.fd(20)
 joe.lt(90)
