@@ -24,6 +24,12 @@ print("Tuition:", tuition)
 
 print("Finished result of the cost per class:", cost_per_class)
 
+print(weeks, type(weeks))
+print(classes, type(classes))
+print(tuition, type(tuition))
+print(cost_per_week, type(cost_per_week))
+print(classes_per_week, type(classes_per_week))
+print(cost_per_class, type(cost_per_class))
 
 #Part B
 import random
