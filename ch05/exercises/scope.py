@@ -9,14 +9,15 @@ def drawEqShape(leo, num_sides, side_length):
 
 
 #driver
-wn=turtle.Screen()
-wn.bgcolor("yellow") 
-leo = turtle.Turtle()
-leo.shape("turtle")
-leo.color("green")
-length= int(input("How long do you want the  sides to be?: "))
-sides = int(input("How many sides do you want?:"))
-drawEqShape(leo, sides, length)
-wn.exitonclick()
+def main():
+  wn=turtle.Screen()
+  wn.bgcolor("yellow") 
+  leo = turtle.Turtle()
+  leo.shape("turtle")
+  leo.color("green")
+  side_length= int(input("How long do you want the  sides to be?: "))
+  num_sides = int(input("How many sides do you want?:"))
+wn.exitonclick()    drawEqShape(leo,num_sides,side_length)
+main()
 
 
