@@ -1,27 +1,23 @@
 class Rectangle:
-  def __init__(self, x=0, y=0, height=0,width=0):
+  def __init__(self, x, y, height,width):
+    '''
+    general function: Creates the Rectangle surface
+    args: self, x, y, height, and width
+    '''
     self.x=x
     self.y=y
     self.height=height
     self.width=width
 
 
-  def getX(self):
-    return(self.x)
 
-  def getY(self):
-    return(self.y)
-
-  def getHeight(self):
-    return(self.height)
-
-  def getWidth(self):
-    return(self.width)
-
-    
-def driver():
-  r = Rectangle(5, 7, 10,10)
-  print(r.getX())
-  print(r.getY())
-  print(r.getHeight())
-  print(r.getWidth())
+def __str__(self):
+  '''
+  general function: Creates a string that contains the x, y, height, and width arguments that is then returned
+  args: self 
+  return: result_str
+  
+  
+  '''
+  result_str = f" x is {self.x}, y is{self.y}, height is{self.height}, width is{self.width}"
+  return(result_str)
