@@ -10,7 +10,6 @@ class Rectangle:
     self.width=width
 
 
-
 def __str__(self):
   '''
   general function: Creates a string that contains the x, y, height, and width arguments that is then returned
