@@ -1,7 +1,6 @@
 from Surface import Surface 
 from Rectangle import Rectangle
 
-
 def main():
   r = Rectangle(10, 10, 10, 10)
   assert((r.x, r.y, r.height, r.width) == (10,10,10,10))
