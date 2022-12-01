@@ -42,14 +42,13 @@ def main():
   pygame.time.wait(2000)
 
   start=pygame.image.load('Bee.png').convert_alpha()
-  bee =button.Button(260,150 , start, 0.8)
+  bee=button.Button(260,150 , start, 0.8)
 
   running= True
   while running:
         for event in pygame.event.get(): 
           # movement= True
            # pos = event.pos
-           # pos= pygame.mouse.get_pos()
            
           pos= pygame.mouse.get_pos()
         if bee.rect.collidepoint(pos):
