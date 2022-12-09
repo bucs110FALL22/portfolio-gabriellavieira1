@@ -5,6 +5,9 @@ import math
 pygame.display.init()
 
 
+
+
+
 window= pygame.display.set_mode((500,500))
 window.fill("blue")
 pygame.display.flip()
@@ -14,7 +17,6 @@ radius = window_size[0]/2
 
 pygame.draw.circle(window, "pink", (window_size[0]/2, window_size[1]/2), radius)
 pygame.display.flip()
-
 
 x1=0
 y1=250
@@ -59,6 +61,12 @@ print(points)
 print(distance_from_center)
 print(is_in_circle)
 pygame.time.wait(2000)
+
+
+
+
+
+
 
 
 #Part C- Couldn't get to work
