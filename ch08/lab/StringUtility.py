@@ -51,10 +51,7 @@ class StringUtility:
         return self.string[0] + self.string[1:].replace(self.string[0], '*')
 
 
-  #def asciiSum(self): Could not figure out
-
-      
-    #def cipher(self):  Could not figure out
+ #Other two tests could not do
       
 
     
