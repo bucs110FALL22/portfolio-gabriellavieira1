@@ -17,58 +17,44 @@ class StringUtility:
     return: count
   
     '''
+ 
     count =0 
-    for s in self.string:
-      if s in ("aAeEiIoOuU"):
-        count+= 1
-      elif count>= 5:
-        return("Many")
-      else: 
-        count=count
+    for s in self.string:  
+      if s in ("aAeEiIoOuU a A e E i I o O u U"):
+         count+= 1
+      if count > 5:
+         return ("many")
     return str(count)
+    
  
 
-    def bothEnds(self):
+  def bothEnds(self):
       '''
-    general function: return a string made of the first 2 and last 2 chars of the original string
-    args: self
-    return: self.string
+   general function: return a string made of the first 2 and last 2 chars of the original string
+   args: self
+   return: self.string
       '''
       count = 0
       
       for i in self.string:
-        count = count +1
-        return self.string[0:2] + self.string[-2]
+         count = count +1
+      return (self.string[0:2] + self.string[count - 2: count])
         
-        if self.string < 2:
-           return ""
-  
 
-    def fixStart(self):
-      '''
+  def fixStart(self):
+       '''
     general function: return a string where all occurrences of its first char have been changed to '*'
     args: self
     return:self.string
-  
-      '''
-      str1 = str1.replace(self.string, '*')
-      for s in self.string:
-        return self.string[0] + str1[1: ]
-
-        if self.string <= 1:
-          self.string = self.string
+       '''
+       for s in self.string:
+        return self.string[0] + self.string[1:].replace(self.string[0], '*')
 
 
-    def asciiSum(self):
-      '''
-    general function: return an integer that is the sum of all ascii values in the string
-    args: self
-      '''
-      num= sum(ord(self.string))
-      print(num)
+  #def asciiSum(self): Could not figure out
+
       
-
-    #def cipher(self):
+    #def cipher(self):  Could not figure out
       
 
     
