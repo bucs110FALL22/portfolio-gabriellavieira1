@@ -6,7 +6,7 @@ class YodaAPI:
     args: self
     '''
     def __init__(self):
-        self.api__url = f'https://api.funtranslations.com/translate/yoda.json'
+        self.api__url = 'https://api.funtranslations.com/translate/yoda.json'
 
     def get(self):
       '''
