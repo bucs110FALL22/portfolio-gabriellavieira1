@@ -2,8 +2,6 @@ import JokeAPI
 import YodaAPI 
 import pygame
 
-
-
 def main():
   pygame.init()
   screen_width= 600
